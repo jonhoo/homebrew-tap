@@ -1,14 +1,14 @@
 class Dings < Formula
   desc "quick command-line data visualization"
   homepage "https://github.com/jonhoo/dings/"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/jonhoo/dings/releases/download/v0.1.2/dings-aarch64-apple-darwin.tar.xz"
-    sha256 "2c329a93510c3762711876b346dbb02ad83498168b2d10f74528fb062405052e"
+    url "https://github.com/jonhoo/dings/releases/download/v0.1.3/dings-aarch64-apple-darwin.tar.xz"
+    sha256 "53be0ee5a0d2f9433bbf63347aca99e3bd8506b275cce35aa0e6262820b7fa76"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/jonhoo/dings/releases/download/v0.1.2/dings-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "58d24207f74da47a2f73e4a9af4fba2971e1aae163970ca8ee6fd1214571f024"
+    url "https://github.com/jonhoo/dings/releases/download/v0.1.3/dings-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "d295c7e07e5e5147b24b83ffa457ac510b0676c4db8dc8b8808b022e7659eed0"
   end
   license "ISC"
 
