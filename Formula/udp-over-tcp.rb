@@ -1,14 +1,14 @@
 class UdpOverTcp < Formula
   desc "Command-line tool for tunneling UDP datagrams over TCP."
   homepage "https://github.com/jonhoo/udp-over-tcp"
-  version "0.1.8"
+  version "0.1.9"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/jonhoo/udp-over-tcp/releases/download/v0.1.8/udp-over-tcp-aarch64-apple-darwin.tar.xz"
-    sha256 "d4da0c5b09e0599eaa1dd05499aadfb2d80fc45153d19c10d82fcf4bdfc1aa1f"
+    url "https://github.com/jonhoo/udp-over-tcp/releases/download/v0.1.9/udp-over-tcp-aarch64-apple-darwin.tar.xz"
+    sha256 "d5a8f1907888f23d83cbdd97f2214614dd66927ae355f3074bc409e6109731ac"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/jonhoo/udp-over-tcp/releases/download/v0.1.8/udp-over-tcp-x86_64-unknown-linux-musl.tar.xz"
-    sha256 "8a22e459a71101b108bb5907051ce224bbfe48d4b7ebffb2eae224d6d8e9cfb1"
+    url "https://github.com/jonhoo/udp-over-tcp/releases/download/v0.1.9/udp-over-tcp-x86_64-unknown-linux-musl.tar.xz"
+    sha256 "c66cf2beddc7d85cc6c31b75b30e0c4e90ae3ba24025ec94f33376939d479e9b"
   end
   license any_of: ["MIT", "Apache-2.0"]
 
