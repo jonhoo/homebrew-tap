@@ -1,19 +1,19 @@
 class Avdl < Formula
   desc "Avro IDL compiler that turns .avdl into .avpr and .avsc JSON files"
   homepage "https://github.com/jonhoo/avdl"
-  version "0.1.2+1.12.1"
+  version "0.1.3+1.12.1"
   if OS.mac? && Hardware::CPU.arm?
-      url "https://github.com/jonhoo/avdl/releases/download/v0.1.2+1.12.1/avdl-aarch64-apple-darwin.tar.xz"
-      sha256 "7c3d9435c1a9a4fca17323fb1cb198b2f3b4d3f9e4df7119436c75642c3d2890"
+      url "https://github.com/jonhoo/avdl/releases/download/v0.1.3+1.12.1/avdl-aarch64-apple-darwin.tar.xz"
+      sha256 "48fd60b99f87bf3ecd8e1ecb120eba7072f1ccd59c2efffe5485381e0d256a09"
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jonhoo/avdl/releases/download/v0.1.2+1.12.1/avdl-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a066e19defc4cd3adb461bbe1d29d13ca78fd2fd6cf74c567224d641f22e71c9"
+      url "https://github.com/jonhoo/avdl/releases/download/v0.1.3+1.12.1/avdl-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "114a8c56d8ff93f5ab2082b6e2d7f3f2851705f9862cfcada56f3f9a2061de90"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jonhoo/avdl/releases/download/v0.1.2+1.12.1/avdl-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "13804fd84e9f3de82afdee1764099eb1eec12c4863b0e4a2b854268dd7db149e"
+      url "https://github.com/jonhoo/avdl/releases/download/v0.1.3+1.12.1/avdl-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "bc753653fbb03d4f8f3eeacb251ac0dcceec5844a03eba85154ea41fcab2468e"
     end
   end
   license "Apache-2.0"
